@@ -1,0 +1,66 @@
+PODS:
+  - connectivity_plus_macos (0.0.1):
+    - FlutterMacOS
+    - ReachabilitySwift
+  - device_info_plus (0.0.1):
+    - FlutterMacOS
+  - file_selector_macos (0.0.1):
+    - FlutterMacOS
+  - flutter_image_compress_macos (1.0.0):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - geolocator_apple (1.2.0):
+    - FlutterMacOS
+  - package_info_plus (0.0.1):
+    - FlutterMacOS
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - ReachabilitySwift (5.2.4)
+
+DEPENDENCIES:
+  - connectivity_plus_macos (from `Flutter/ephemeral/.symlinks/plugins/connectivity_plus_macos/macos`)
+  - device_info_plus (from `Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos`)
+  - file_selector_macos (from `Flutter/ephemeral/.symlinks/plugins/file_selector_macos/macos`)
+  - flutter_image_compress_macos (from `Flutter/ephemeral/.symlinks/plugins/flutter_image_compress_macos/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - geolocator_apple (from `Flutter/ephemeral/.symlinks/plugins/geolocator_apple/macos`)
+  - package_info_plus (from `Flutter/ephemeral/.symlinks/plugins/package_info_plus/macos`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  connectivity_plus_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/connectivity_plus_macos/macos
+  device_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos
+  file_selector_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/file_selector_macos/macos
+  flutter_image_compress_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_image_compress_macos/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  geolocator_apple:
+    :path: Flutter/ephemeral/.symlinks/plugins/geolocator_apple/macos
+  package_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/package_info_plus/macos
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
+
+SPEC CHECKSUMS:
+  connectivity_plus_macos: f6e86fd000e971d361e54b5afcadc8c8fa773308
+  device_info_plus: 5401765fde0b8d062a2f8eb65510fb17e77cf07f
+  file_selector_macos: 54fdab7caa3ac3fc43c9fac4d7d8d231277f8cf2
+  flutter_image_compress_macos: c26c3c13ea0f28ae6dea4e139b3292e7729f99f1
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  geolocator_apple: 72a78ae3f3e4ec0db62117bd93e34523f5011d58
+  package_info_plus: 02d7a575e80f194102bef286361c6c326e4c29ce
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+
+PODFILE CHECKSUM: ff8d753f7457ab1ef7bbdb931b198287e3e87c5b
+
+COCOAPODS: 1.15.2
