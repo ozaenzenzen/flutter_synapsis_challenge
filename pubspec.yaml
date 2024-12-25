@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  fam_coding_supply:
+    git:
+      url: https://github.com/ozaenzenzen/fam_coding_supply.git
+      ref: master
 
 
   # The following adds the Cupertino Icons font to your application.
