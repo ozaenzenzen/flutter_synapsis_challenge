@@ -33,10 +33,12 @@ dependencies:
   centrifuge: ^0.14.1
   flutter:
     sdk: flutter
+  # fam_coding_supply:
+  #   git:
+  #     url: https://github.com/ozaenzenzen/fam_coding_supply.git
+  #     ref: master
   fam_coding_supply:
-    git:
-      url: https://github.com/ozaenzenzen/fam_coding_supply.git
-      ref: master
+    path: ../fam_coding_supply
 
 
   # The following adds the Cupertino Icons font to your application.

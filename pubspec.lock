@@ -204,11 +204,9 @@ packages:
   fam_coding_supply:
     dependency: "direct main"
     description:
-      path: "."
-      ref: master
-      resolved-ref: fbd7bae8206952a357a2ffd1333ed25248a31ec1
-      url: "https://github.com/ozaenzenzen/fam_coding_supply.git"
-    source: git
+      path: "../fam_coding_supply"
+      relative: true
+    source: path
     version: "0.0.1"
   ffi:
     dependency: transitive
