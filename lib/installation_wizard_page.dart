@@ -51,6 +51,8 @@ class _InstallationWizardPageState extends State<InstallationWizardPage> with Si
 
   bool progressDone = false;
   // bool progressDone = true;
+  bool progressDoneLoginPage = false;
+
   double _progress = 0.0;
 
   void _simulateProgress() async {
@@ -70,6 +72,10 @@ class _InstallationWizardPageState extends State<InstallationWizardPage> with Si
         progressDone = true;
       });
     }
+    await Future.delayed(const Duration(seconds: 4));
+    setState(() {
+      progressDoneLoginPage = true;
+    });
   }
 
   handle() {
