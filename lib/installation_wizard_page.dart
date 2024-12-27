@@ -4,6 +4,7 @@ import 'package:fam_coding_supply/fam_coding_supply.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_synapsis_challenge/controller/installation_controller.dart';
+import 'package:flutter_synapsis_challenge/login_page.dart';
 import 'package:flutter_synapsis_challenge/support_assets.dart';
 import 'package:flutter_synapsis_challenge/support_colors.dart';
 import 'package:flutter_synapsis_challenge/widget/loading_indicator_bar_widget.dart';
@@ -75,6 +76,15 @@ class _InstallationWizardPageState extends State<InstallationWizardPage> with Si
     await Future.delayed(const Duration(seconds: 4));
     setState(() {
       progressDoneLoginPage = true;
+      AppLoggerCS.debugLog("progressDoneLoginPage: $progressDoneLoginPage");
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) {
+            return const LoginPage();
+          },
+        ),
+      );
     });
   }
 
